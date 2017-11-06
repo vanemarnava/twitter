@@ -1,0 +1,155 @@
+body
+{
+	margin: 0;
+	padding: 0:;
+}
+
+
+/*Seccion del encabezado*/
+header
+{
+	width: 100%;
+	height: auto;
+	border-bottom: 1px solid grey; 
+}
+
+ul
+{
+	list-style: none; /*puntos adelante*/
+}
+
+li
+{
+	display: inline-block;
+	margin-left: 30px;
+
+}
+
+a
+{
+	text-decoration: none; /*subrayado*/
+	color: #6D7D88;
+}
+
+.icon-twitter
+{
+	color: #009af6;
+	height: 20px;
+	width: 20px;
+}
+
+.last
+{
+	margin-left: 700px;
+}
+
+a:hover 
+{
+	color: #009af6;
+}
+
+
+/*Estilo general de las secciones, que queden centrados*/
+.writeTheTweet, .seeTheTweet
+{
+	margin: 0;
+	text-align: center;
+	background-color: #e4ebf0;
+	border: 1px solid yellow; /*ayuda visual*/
+}
+
+
+
+/*Seccion donde se escribe el tweet*/
+.box1 
+{
+	width: 60%;
+	height: auto  /*4em*/;
+	background-color: #fff;
+	font-size: 15px;
+	padding: 1em;
+/*	border-radius: 1em;*/
+	border: none;
+	margin: 0 auto;
+	margin-top: 50px;
+	margin-bottom: 25px;
+	border: 1px solid blue; /*ayuda visual*/
+}
+
+/*Estilo del textarea*/
+textarea 
+{
+	width: 60%;
+	height: auto /*4em*/;
+	color: #4E4D53;
+	font-size: 15px;
+	padding: 1em;
+/*	border-radius: 1em;*/
+/*	border: none;*/
+	margin: 0 auto;
+	border: 1px solid green; /*ayuda visual*/
+}
+
+
+/*estilo boton*/
+#btn
+{
+	height: 30px;
+	width: 80px;
+	background-color: #009af6;
+	color: white;
+	border: none;
+	border-radius: 5px;
+	font-size: auto;
+}
+
+#btn:hover {
+	background-color: #5590A6;
+}
+
+/*este*/
+#btn:focus, textarea:focus{
+	outline: none;
+}
+
+
+/*Seccion donde se publica el tweet*/
+
+.seeTheTweet
+{
+	height: auto;
+}
+
+
+
+
+
+/*estilo de la etiquetas que se creara por js*/
+
+/*Donde va el texto*/
+#cont 
+{
+	width: 51em;
+	margin: 0 auto;
+	color: #4E4D53;
+	text-align: left;
+	border: 1px solid purple; /*ayuda visual*/
+}
+
+/*cuadro de texto*/
+#cont div 
+{
+	padding: 1em 0.5em;
+	margin-bottom: 2em;
+	outline: 0.1em solid #E5E3F2;
+	background-color: #FFF;
+	border: 1px solid orange; /*ayuda visual*/
+
+}
+
+/*p para el texto del tweet */
+p
+{
+	display: inline-block;
+	margin-left: 15px;
+}
