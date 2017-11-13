@@ -1,7 +1,8 @@
 body
 {
 	margin: 0;
-	padding: 0:;
+	padding: 0;
+	background-color: #e4ebf0;
 }
 
 
@@ -10,6 +11,8 @@ header
 {
 	width: 100%;
 	height: auto;
+	padding-top: 6px;
+	background-color: #fff;
 	border-bottom: 1px solid grey; 
 }
 
@@ -55,9 +58,8 @@ a:hover
 	margin: 0;
 	text-align: center;
 	background-color: #e4ebf0;
-	border: 1px solid yellow; /*ayuda visual*/
+	/*border: 1px solid yellow;*/ /*ayuda visual*/
 }
-
 
 
 /*Seccion donde se escribe el tweet*/
@@ -68,12 +70,12 @@ a:hover
 	background-color: #fff;
 	font-size: 15px;
 	padding: 1em;
-/*	border-radius: 1em;*/
+	border-radius: 1em;
 	border: none;
 	margin: 0 auto;
 	margin-top: 50px;
 	margin-bottom: 25px;
-	border: 1px solid blue; /*ayuda visual*/
+	/*border: 1px solid blue;*/ /*ayuda visual*/
 }
 
 /*Estilo del textarea*/
@@ -85,9 +87,16 @@ textarea
 	font-size: 15px;
 	padding: 1em;
 /*	border-radius: 1em;*/
-/*	border: none;*/
+	border: none;
 	margin: 0 auto;
-	border: 1px solid green; /*ayuda visual*/
+	/*border: 1px solid green;*/ /*ayuda visual*/
+}
+
+.separation
+{
+	border-color: #009af6;
+	font-size: 1px;
+	margin-bottom: 15px;
 }
 
 
@@ -120,10 +129,6 @@ textarea
 	height: auto;
 }
 
-
-
-
-
 /*estilo de la etiquetas que se creara por js*/
 
 /*Donde va el texto*/
@@ -133,17 +138,19 @@ textarea
 	margin: 0 auto;
 	color: #4E4D53;
 	text-align: left;
-	border: 1px solid purple; /*ayuda visual*/
+	/*border: 1px solid purple;*/ /*ayuda visual*/
 }
 
 /*cuadro de texto*/
 #cont div 
 {
+	display: block;
 	padding: 1em 0.5em;
 	margin-bottom: 2em;
+	border-radius: 0.5em;
 	outline: 0.1em solid #E5E3F2;
 	background-color: #FFF;
-	border: 1px solid orange; /*ayuda visual*/
+	/*border: 1px solid orange;*/ /*ayuda visual*/
 
 }
 
@@ -152,4 +159,30 @@ p
 {
 	display: inline-block;
 	margin-left: 15px;
+	margin-left: 30px;
+	/*border: 1px solid green;*/ /*ayuda visual*/
+}
+
+#limit 
+{
+	display: inline-block;
+	width: 100px;
+	height: auto;
+	margin-left: 400px;
+	font-size: 19px;
+	border: none; 
+}
+
+textarea
+{  
+  overflow: hidden;
+  margin: 30px auto;
+  display: block;
+}
+
+span
+{
+	display: block;
+	margin-left: 30px;
+	/*border: 1px solid green;*/ /*ayuda visual*/
 }

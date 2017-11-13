@@ -5,7 +5,7 @@
 
 	<title>Twitter</title>
 
-<link rel="stylesheet" href="assets/css/main.css">
+<link rel="stylesheet" href="assets/css/main.css"> <!-- archivo CSS -->
 
 <link rel="stylesheet" href="assets/icomoon-peque/style.css"> <!-- iconos -->
 
@@ -32,11 +32,14 @@
 		
 		<div class="box1">
 			
-			<textarea class="txt" name="" id="comment" data-length="140" placeholder="Que esta pasando..??"></textarea>
+			<textarea class="txt" name="" id="comment"  placeholder="Que esta pasando...??" onkeyup="numWord()"></textarea>
 
-			<hr>
+			<hr class="separation">
 
-			<button type="button" id="btn" onclick="add()">Tweet</button>
+			<button type="button" class="noButton" id="btn" onclick="add()">Tweet</button>
+			
+			<input type="text" id="limit" disable>
+			<!-- <span id="limit" disabled ></span>  -->
 		</div>
 
 
@@ -46,6 +49,7 @@
 	<section class="seeTheTweet">
 		
 		<div id="cont"></div>
+		<!-- <span id="showHour" ></span> -->
 
 	</section>
 
@@ -53,7 +57,3 @@
 
 </body>
 </html>
-
-<!-- cols="30" rows="10" -->
-
-
